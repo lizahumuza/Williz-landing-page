@@ -1,5 +1,5 @@
 body,html{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Poppins', sans-serif;;
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
@@ -50,10 +50,25 @@ a{
     color: #f9faf8;
 }
 img{
+    height: 200px;
+    width: 300px;
+    margin-left: 10px;
+    font-family: 'Roboto';
+}
+.pic{
     height: 300px;
     width: 400px;
     margin-left: 10px;
-    font-family: 'Roboto';
+}
+.img{
+    border: 1px solid #3882F6;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 16px;
+    width: 400px;
+    text-align: center;
+
 }
 
 h1{
@@ -101,7 +116,8 @@ button{
     /*align-items: center;
     justify-content: center;*/
     background-color: #e5e7eb;
-    padding: 80px;
+    padding: 70px;
+    margin-top: 50px;
 }
 .signup{
     display: flex;
